@@ -28,7 +28,7 @@ client.connect((err) => {
         var lastName = person.last_name;
         var birthdate = person.birthdate;
         birthdate = birthdate.toString().slice(0,15);
-        console.log(count + ': ', firstName, lastName + ', ' + 'born', birthdate)
+        console.log(count + ': ', firstName, lastName + ', ' + 'born', birthdate);
     });
         
     // result.rows[0].number; //output: 1
