@@ -7,7 +7,9 @@ module.exports = {
     connection: {
       database: settings.database,
       user:     settings.user,
-      password: settings.password
+      password: settings.password 
+    }, seeds: {
+      directory: './seeds/add_person.js'
     }
   }
 }
